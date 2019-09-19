@@ -1,4 +1,5 @@
 
+//array object
 const questions=[{question: "How often do you look up info on museum websites?",choices: ["Frequently.", "Sometimes.", "Barely.", "Never."]}, 
   {question: "What's your opinion about phone usage in museums?",choices: ["I use and support phone usage in museums.", "I don't support phone usage in museums.", "No particular preference.", "Others."]},
   {question: "What's your opinion about museum technology devices?",choices: ["I use and support museum tech.", "I don't use but support museum tech.", "I don't support museum tech.", "No particular preference."]},
