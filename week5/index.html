@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Thesis Prototype 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <!-- *** generate in js instead later, also adjust position -->
+    <!-- reference: https://www.w3schools.com/howto/howto_css_menu_icon.asp -->
+    <!-- <div class="mobileMenu" id="mNav"> -->
+    <div class="mobileMenu" id="mNav" onclick="naviconClick(this)">
+        <div class="mobileX1"></div>
+        <div class="mobileX2"></div>
+        <div class="mobileX3"></div>
+    </div>
+    <!-- </div> -->
+    <!-- --- -->
+
+    <div class="desktopMenu" id="dNav">
+        <nav>
+            <li><a class="link1" href="#home" tabindex="1">HOME</a></li>
+            <li><a class="link2" href="#collection" tabindex="1">COLLECTION</a></li>
+            <li><a class="link3" href="#about" tabindex="1">ABOUT</a></li>
+        </nav>
+    </div>
+
+    <div id="home" class="section">
+        <div>
+            <span class="title">WHAT DO YOU SEE AS ART?</span>
+        </div>
+        <textarea name="message" placeholder="Type here" rows="10" cols="45" maxlength="280"></textarea>
+        <div class="button">
+            <button class="text">SUBMIT</button>
+            <button id="next" class="text">NEXT</button>
+        </div>
+    </div>
+
+    <div id="collection" class="section">
+        <div>
+            <span class="title">COLLECTION</span>
+        </div>
+        <!-- show collected results here -->
+    </div>
+
+    <div id="about" class="section">
+        <div>
+            <span class="title">ABOUT</span>
+        </div>
+        <div>
+            <!-- introduction of the project -->
+            <p id="about" class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam. Ac turpis egestas integer
+                eget. Odio ut enim blandit volutpat. Blandit turpis cursus in hac. Convallis aenean et tortor at risus.
+                Varius morbi enim nunc faucibus a pellentesque sit amet. Feugiat pretium nibh ipsum consequat nisl vel
+                pretium. </p>
+        </div>
+    </div>
+</body>
+
+</html>
