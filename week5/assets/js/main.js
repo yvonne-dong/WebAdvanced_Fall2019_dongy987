@@ -50,7 +50,7 @@ function submitText() {
             $("#buttons").remove();
             $('#message').remove();
             $('#home').append("<div id='buttons'><button id='next' class='text'>NEXT</button></div>");
-            
+            $('#next').on('click', nextIsClicked());
         } else {
             alert("Please write something at least : D");
         }
@@ -58,38 +58,38 @@ function submitText() {
 }
 
 function nextIsClicked() {
-    $("#next").click(function (){
-        console.log(document.getElementById("next").innerHTML);
-    });
-    
-    //to next case
     // $("#next").click(function () {
-    //     console.log("haiii");
-    //     $('#next').fadeOut(800,function(){$(this).remove();});
+    //     console.log('clickeeeed');
     // });
+
+    // to next case
+    $("#next").click(function () {
+        console.log("haiii");
+        $('#next').fadeOut(300,function(){$(this).remove();});
+    });
 }
 
 // for mobile
 // add links
 function mobileLinks(container) {
-        container.innerHTML += "<a href='#home'>HOME</a>";
-        container.innerHTML += "<a href='#collection'>COLLECTION</a>";
-        container.innerHTML += "<a href='#about'>ABOUT</a>";
-    }
+    container.innerHTML += "<a href='#home'>HOME</a>";
+    container.innerHTML += "<a href='#collection'>COLLECTION</a>";
+    container.innerHTML += "<a href='#about'>ABOUT</a>";
+}
 
 //closing side menu bar 
 function naviconClick(x) {
-        x.classList.toggle("clicked");
-    }
+    x.classList.toggle("clicked");
+}
 
 function showSection() {
-        // scroll to targeted section
-        $('a').click(function () {
-            // get the id of clicked url
-            let toSection = $(this.hash);
-            toSection = toSection.length && toSection;
-            let toOffset = toSection.offset().top;
-            $('html, body').animate({ scrollTop: toOffset }, 800);
-        });
-    }
+    // scroll to targeted section
+    $('a').click(function () {
+        // get the id of clicked url
+        let toSection = $(this.hash);
+        toSection = toSection.length && toSection;
+        let toOffset = toSection.offset().top;
+        $('html, body').animate({ scrollTop: toOffset }, 500);
+    });
+}
 
