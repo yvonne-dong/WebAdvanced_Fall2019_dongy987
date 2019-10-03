@@ -1,0 +1,127 @@
+{
+    "data": [
+        {
+            "artworks": "Internet Based",
+            "artworks-info": [
+                {
+                    "id": "group1",
+                    "title": "The Sheep Market",
+                    "content": {
+                        "image": "http://www.aaronkoblin.com/work/thumbImages/sheep.jpg",
+                        "url": "http://tobib.spline.de/sheep/",
+                        "artist": "Aaron Koblin",
+                        "year": "2008",
+                        "artform": "net art",
+                        "text": "TheSheepMarket.com is a collection of 10,000 sheep made by workers on Amazon's Mechanical Turk. Workers were paid 0.02 ($USD) to \"draw a sheep facing to the left.\" Animations of each sheep's creation may be viewed at TheSheepMarket.com."
+                    }
+                },
+                {
+                    "id": "group1",
+                    "title": "Unauthorized SFMOMA Shows",
+                    "content": {
+                        "image": "https://montenegrojaramillo.info/wp-content/uploads/sfmoma1_.png",
+                        "url": "https://sfmoma.show/",
+                        "artist": "Enar de Dios Rodríguez ,Lasse Scherffig, Ana María Montenegro Jaramillo",
+                        "year": "2017",
+                        "artform": "site specific net art",
+                        "text": "“Unauthorized SFMOMA Show” was a guerrilla series of solo art shows that took place from April 6th to July 2nd, 2017.  One could only see and experience the show, by being physically present inside the San Francisco museum’s public spaces. The show was a virtual exhibition showcasing the works of artists from around the globe."
+                    }
+                },
+                {
+                    "id": "group1",
+                    "title": "Do Not Touch",
+                    "content": {
+                        "image": "https://www.arshake.com/wp-content/uploads/2015/09/tumblr_mlb4y5AE2Q1qz9vlao2_1280.png",
+                        "url": "http://donottouch.org/",
+                        "artist": "Moniker",
+                        "year": "2013-",
+                        "artform": "net based ever-changing interactive music video",
+                        "text": "Do Not Touch is an interactive, crowd sourced music video for the track Kilo by the band Light Light. With Do Not Touch we celebrate the 50th anniversary of the computer pointer. For decades this ubiquitous, yet inconspicuous arrow has formed the essential interface connecting user and computer. With the rise of multi-touch interfaces, we are slowly seeing these disconnected phantom limbs disappear. Reason enough to gather our pointers together and have some fun."
+                    }
+                }
+            ]
+        },
+        {
+            "artworks": "AR/VR",
+            "artworks-info": [
+                {
+                    "id": "group2",
+                    "title": "MoMAR Gallery",
+                    "content": {
+                        "image": "https://archinect.imgix.net/uploads/jc/jc0yzelomy78f2az.jpg?auto=compress%2Cformat",
+                        "url": "https://momar.gallery/",
+                        "artist": "Damjanski, David Lobser, Monique Baltzer",
+                        "year": "2018",
+                        "artform": "AR",
+                        "text": "An unauthorized gallery concept aimed at democratizing physical exhibition spaces, museums, and the curation of art within them. MoMAR is non-profit, non-owned, and exists in the absence of any privatized structures."
+                    }
+                },
+                {
+                    "id": "group2",
+                    "title": "Hans RichtAR",
+                    "content": {
+                        "image": "http://www.willpap-projects.com/Hans_RichtAR/images/RichtAR_App_Docu_1.jpg",
+                        "url": "http://www.willpap-projects.com/Hans_RichtAR/Intro.html",
+                        "artist": "John Craig Freeman, Will Pappenheimer",
+                        "year": "2016",
+                        "artform": "AR",
+                        "text": "Hans RichtAR was commissioned by the curator of the Hans Richter retrospective at LACMA, Timothy Benson, to re-envision the \"Film und Foto\" exhibition which took place in Stuttgart in 1929."
+                    }
+                },
+                {
+                    "id": "group2",
+                    "title": "The Deep Listener",
+                    "content": {
+                        "image": "https://lh3.googleusercontent.com/xY1KmBL0B5kU-2XQ7ip4jhTRoYF8QGVFe0WfkJhxN5I0vvti6xxOennOM1Q4sBZT3EU_mDCytqo6V_TLkm77d3BhR2sg=s2048",
+                        "url": "http://www.jakobsteensen.com/#/the-deep-listener/",
+                        "artist": "Jakob Kudsk Steensen",
+                        "year": "2019",
+                        "artform": "AR and spatial audio",
+                        "text": "The Deep Listener by Jakob Kudsk Steensen is an audio-visual ecological trail through Kensington Gardens and Hyde Park, the area surrounding the Serpentine Galleries. Designed as an augmented reality and spatial audio work downloadable as an app for mobile devices, it is both a site specific public artwork and a digital archive of species that live within the park. "
+                    }
+                }
+            ]
+        },
+        {
+            "artworks": "Digital Media",
+            "artworks-info": [
+                {
+                    "id": "group3",
+                    "title": "SOMEONE",
+                    "content": {
+                        "image": "https://payload.cargocollective.com/1/19/625408/13812564/_SP_6180-web_1500.jpg",
+                        "url": "http://lauren-mccarthy.com/SOMEONE",
+                        "artist": "Lauren McCarthy",
+                        "year": "2019",
+                        "artform": "Human smart home command center",
+                        "text": "Gallery visitors are invited to act as a human version of Amazon Alexa. SOMEONE is a meditation on the smart home, the tensions between intimacy vs privacy, convenience vs agency they present, and the role of human labor in the future of automation."
+                    }
+                },
+                {
+                    "id": "group3",
+                    "title": "The Probable Trust Registry: The Rules of the Game #1-3",
+                    "content": {
+                        "image": "https://www.smb.museum/uploads/tx_smb/exhibitions/exhibition_58887/piper_web_xl.jpg",
+                        "url": "https://artsandculture.google.com/asset/the-probable-trust-registry-the-rules-of-the-game-1-3/7wHI_RcSFKeXdg?hl=en",
+                        "artist": "Adrian Piper",
+                        "year": "2013",
+                        "artform": "performance art",
+                        "text": "The Probable Trust Registry: The Rules of the Game #1-3 is equally an installation and a participative group performance. In a dialogical process it deals with the question how trust is built, and thus aims at the foundations of interpersonal relations. Considered in a larger context, it raises philosophical as well as quite practical questions regarding democratic processes and individual responsibility. It does not only call on the visitors to make a personal declaration, but also urges us to think about our actions and the consequences they entail on political, economic, and social level."
+                    }
+                },
+                {
+                    "id": "group3",
+                    "title": "Wet and Wavy Looks—Typhon coming on for a Three Monitor Workstation",
+                    "content": {
+                        "image": "https://freight.cargo.site/w/1500/q/94/i/85777f772984b0bc661b767b39e779aa5fe8cce1d79ed4fe4cff52b6bc9ea909/sp-kitchen-19_o.jpg",
+                        "url": "https://sondraperry.com/Wet-and-Wavy-Looks-Typhon-coming-on-for-a-Three-Monitor-Workstation",
+                        "artist": "Sondra Perry",
+                        "year": "2016",
+                        "artform": "Video, rowing machine workstation, Eco styler gel",
+                        "text": "Using a water-resistant rowing machine filled with hair gel connected to three screen monitors, Sondra Perry’s 2016 Wet and Wavy – Typhoon coming on for a Three-Monitor Workstation engages the viewer’s body as a component of her piece. Sequential computer-generated images of a bright purple ocean open the piece. Using the Ocean Modifier software, Perry is able to simulate and distort ocean waves. Perry’s selection of purple as the ocean color corresponds to the color warning used in software indicating an error with the software."
+                    }
+                }
+            ]
+        }
+    ]
+}

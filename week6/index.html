@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Gallery</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto" rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/jquery-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.3.1/handlebars.min.js"></script>
+    <script type='text/javascript' src='assets/js/handlebars.js'></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <div class="menu"></div>
+    <div id="title"><h1>GALLERY</h1></div>
+    <div class="artworks-list">
+        <script id="hbar-template" type="x-handlebars-template">​
+            {{#each data}}
+                <div class="scrollbar">
+                    <h1>{{artworks}}</h1>
+                    {{#each artworks-info}}   
+                        <div class="artwork-container" id="{{id}}">
+                            <a href="{{content.url}}" target=blank>
+                                <img class="artwork-image" src="{{content.image}}"/>
+                            </a>
+                            <h2>{{title}}</h2>
+                            <p>{{content.artist}}</p>
+                        </div>
+                    {{/each}}
+                </div>
+            {{/each}}
+            <div style="clear: both"></div>
+        </script>
+    </div>
+</body>
+
+</html>
