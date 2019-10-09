@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <title>Gallery</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="assets/js/jquery-min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,27 +13,36 @@
 </head>
 
 <body>
-    <div class="menu"></div>
-    <div id="title"><h1>GALLERY</h1></div>
-    <div class="artworks-list">
-        <script id="hbar-template" type="x-handlebars-template">​
+    <div class="menu-group">
+        <button id="home" class="menu"><a href="index.html">HOME</a></button>
+        <button id="artwork-type" class="menu"><a href="artwork-page.html">ARTWORK TYPE</a></button>
+    </div>
+    <div id="main-container">
+        <h1 id="title">GALLERY</h1>
+        <div class="artworks-list">
+            <script id="hbar-template" type="x-handlebars-template">​
             {{#each data}}
                 <div class="scrollbar">
                     <h1>{{artworks}}</h1>
-                    {{#each artworks-info}}   
+                    {{#each artworks-info}}
                         <div class="artwork-container" id="{{id}}">
-                            <a href="{{content.url}}" target=blank>
+                            <a href="/artwork-page.html{{code}}">
                                 <img class="artwork-image" src="{{content.image}}"/>
+                                <h2>{{title}}</h2>
+                                <p>{{content.artist}}</p>
                             </a>
-                            <h2>{{title}}</h2>
-                            <p>{{content.artist}}</p>
                         </div>
                     {{/each}}
-                    <div class="buttons" id="1" onmouseover="mouseOver()" onmouseout="mouseOut()">MORE</div>
+                    <div class="artwork-container" id="button-container"><button class="buttons" id="1" onmouseover="buttonMouseOver()" onmouseout="buttonMouseOut()">MORE</button></div>
                 </div>
             {{/each}}
             <div style="clear: both"></div>
         </script>
+        </div>
+    </div>
+    <div class="menu-group">
+        <button id="about" class="menu">ABOUT</button>
+        <button id="experiment" class="menu" href="">EXPERIMENT</button>
     </div>
 </body>
 
