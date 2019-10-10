@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Artwork Page</title>
+    <!-- <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="text/javascript" src="/assets/js/jquery-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.3.1/handlebars.min.js"></script>
+    <script type='text/javascript' src='/assets/js/handlebars.js'></script>
+    <script type="text/javascript" src="/assets/js/artwork.js"></script> -->
     <link rel="stylesheet" href="/WebAdvanced_Fall2019_dongy987/week6/assets/css/style.css">
     <script type="text/javascript" src="/WebAdvanced_Fall2019_dongy987/week6/assets/js/jquery-min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,28 +20,29 @@
 
 <body>
     <div class="menu-group">
+        <!-- <button id="home" class="menu"><a href="/index.html">HOME</a></button> -->
         <button id="home" class="menu"><a href="/WebAdvanced_Fall2019_dongy987/week6/index.html">HOME</a></button>
         <button id="artwork-type" class="menu"><a href="">ARTWORK TYPE</a></button>
     </div>
-    <div id="main-container">
-    <script id="hbar-template" type="x-handlebars-template">​
-        <div style="margin-top: -3vh">
-            <h1 id="title">{{title}}</h1>
-            <div class="artworks-list">
-                <div class="selected-container" id="{{code}}">
-                    <a href=""><img class="artwork-image" src="{{content.image}}"></a>
-                    <h1 style="margin-left:0">{{title}}</h1>
-                    <h2 style="font-size: calc(0.6rem + 1vw)">{{content.artist}},&nbsp;{{content.year}},&nbsp;{{content.artform}}</h2>
-                    <p>{{content.text}}</p>
-                </div>
+    <div id="main-container" style="margin-top: -3vh">
+        <script id="hbar-template" type="x-handlebars-template">​
+        <h1 id="title">{{title}}</h1>
+        <div class="artworks-list">
+            <div class="selected-container" id="{{code}}">
+                <a href=""><img class="artwork-image" src="{{content.image}}"></a>
+                <h1 style="margin-left:0">{{title}}</h1>
+                <h2 style="font-size: calc(0.6rem + 1vw)">{{content.artist}},&nbsp;{{content.year}},&nbsp;{{content.artform}}</h2>
+                <p>{{content.text}}</p>
             </div>
         </div>
         <div style="clear: both"></div> 
     </script>
-    </div> 
+    </div>
+    <div id="about-sec"></div>
     <div class="menu-group">
         <button id="about" class="menu">ABOUT</button>
         <button id="experiment" class="menu" href="">EXPERIMENT</button>
     </div>
 </body>
+
 </html>

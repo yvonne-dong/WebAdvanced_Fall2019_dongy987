@@ -5,6 +5,15 @@ let artworkData = {data:[]};
 window.addEventListener('DOMContentLoaded', function () {
     hashtag = $(location).attr('hash');
     loadData(hashtag);
+
+    $("#about").click(function(){
+        $("#about-sec").addClass("open-about");
+        $("#about-sec").html("<h1 style='width: 40vw; margin: 0 auto; margin-top: 25vh;'>ABOUT</h1> <p style='width: 40vw; margin: 0 auto;'>This is an online repository showcasing digital art pieces that focus on the theme of digital space vs. real-world space <br><br>(click anywhere to go back)</p>");
+        $("#about-sec").click(function(){
+            $("#about-sec").empty();
+            $("#about-sec").removeClass("open-about");
+        });
+    });
 });
 
 function loadData(hash) {
