@@ -61,7 +61,7 @@ body{
 /* content in main container */
 #main-container{
     width: 92vw;
-    height: 86vh;
+    /* height: 86vh; */
     margin: 0 auto;
 }
 
