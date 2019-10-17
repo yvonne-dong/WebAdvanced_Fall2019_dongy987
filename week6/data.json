@@ -2,9 +2,10 @@
     "data": [
         {
             "artworks": "Overlooked and Intangible",
+            "id": "group1",
             "artworks-info": [
                 {
-                    "id": "group1",
+                    "id": "0",
                     "code": "#immaterials",
                     "title": "Immaterials: Light Painting WiFi",
                     "content": {
@@ -17,20 +18,7 @@
                     }
                 },
                 {
-                    "id": "group1",
-                    "code": "#salle-de-brouillage",
-                    "title": "Salle de Brouillage",
-                    "content": {
-                        "image": "http://documentsdartistes.org/artistes/clauss/images/salle-de-brouillage2.jpg",
-                        "url": "http://documentsdartistes.org/artistes/clauss/repro29.html",
-                        "artist": "Julien Clauss",
-                        "year": "2018",
-                        "artform": "Digital device, radio frequency",
-                        "text": "The artist turned one of the exhibition spaces of the spectacular Fondation Vasarely into a giant jamming room, a Salle de brouillage in french. He placed 30 FM radio transmitters on the walls. They are made of brass plate circuits and each of them is connected to an antenna, a power supply and audio players via a network of cables that crisscross the walls of the room. Each transmitter is tuned to a different frequency along the FM broadcast band (from 87 to 108 MHz), covering the entire FM band."
-                    }
-                },
-                {
-                    "id": "group1",
+                    "id": "1",
                     "code": "#wifi-camera",
                     "title": "Wifi Camera",
                     "content": {
@@ -43,7 +31,20 @@
                     }
                 },
                 {
-                    "id": "group1",
+                    "id": "2",
+                    "code": "#salle-de-brouillage",
+                    "title": "Salle de Brouillage",
+                    "content": {
+                        "image": "http://documentsdartistes.org/artistes/clauss/images/salle-de-brouillage2.jpg",
+                        "url": "http://documentsdartistes.org/artistes/clauss/repro29.html",
+                        "artist": "Julien Clauss",
+                        "year": "2018",
+                        "artform": "Digital device, radio frequency",
+                        "text": "The artist turned one of the exhibition spaces of the spectacular Fondation Vasarely into a giant jamming room, a Salle de brouillage in french. He placed 30 FM radio transmitters on the walls. They are made of brass plate circuits and each of them is connected to an antenna, a power supply and audio players via a network of cables that crisscross the walls of the room. Each transmitter is tuned to a different frequency along the FM broadcast band (from 87 to 108 MHz), covering the entire FM band."
+                    }
+                },
+                {
+                    "id": "3",
                     "code": "#spore",
                     "title": "Spore 1.1",
                     "content": {
@@ -59,35 +60,10 @@
         },
         {
             "artworks": "Redefining Spaces",
+            "id": "group2",
             "artworks-info": [
                 {
-                    "id": "group2",
-                    "code": "#unauthorized-sfmoma-shows",
-                    "title": "Unauthorized SFMOMA Shows",
-                    "content": {
-                        "image": "http://lassescherffig.de/wp-content/uploads/2017/08/UnauthorizedSFMOMAShow_Press01-MayWEB.jpg",
-                        "url": "https://sfmoma.show/",
-                        "artist": "Enar de Dios Rodríguez ,Lasse Scherffig, Ana María Montenegro Jaramillo",
-                        "year": "2017",
-                        "artform": "Site specific net art",
-                        "text": "“Unauthorized SFMOMA Show” was a guerrilla series of solo art shows that took place from April 6th to July 2nd, 2017.  One could only see and experience the show, by being physically present inside the San Francisco museum’s public spaces. The show was a virtual exhibition showcasing the works of artists from around the globe."
-                    }
-                },
-                {
-                    "id": "group2",
-                    "code": "#para-site",
-                    "title": "Para-site",
-                    "content": {
-                        "image": "https://cdn.sanity.io/images/q2tdbkqz/production/op95UdOlnLCPkHT3WX7AQRVr-2212x2837.jpg?w=2000&fit=max&q=90",
-                        "url": "https://dsrny.com/project/para-site",
-                        "artist": "Diller Scofidio + Renfro",
-                        "year": "1989",
-                        "artform": "Digital device, network",
-                        "text": "The installation is modeled on Michel Serres’ three definitions of parasite: just as the biological parasite is physically opportunistic and feeds off its host organism, the installation steals its structural and electrical sustenance from its host site; just as the social parasite entertains its host to earn welcome at the dinner table, the installation offers the entertainment value of voyeurism to a public unwittingly drawn into an interrogation of vision; just as the technological parasite creates interference in an information network, the installation interrupts the systems of  the museum to interrogate it. The installation electronically links the Projects Room with three remote sites of circulation in the museum, linking self–conscious and unsuspecting viewers in a reflection about looking—the primary activity in the museum."
-                    }
-                },
-                {
-                    "id": "group2",
+                    "id": "4",
                     "code": "#ghz-project",
                     "title": "The 2.4GHz Project",
                     "content": {
@@ -100,7 +76,33 @@
                     }
                 },
                 {
-                    "id": "group2",
+                    "id": "5",
+                    "code": "#unauthorized-sfmoma-shows",
+                    "title": "Unauthorized SFMOMA Shows",
+                    "content": {
+                        "image": "http://lassescherffig.de/wp-content/uploads/2017/08/UnauthorizedSFMOMAShow_Press01-MayWEB.jpg",
+                        "url": "https://sfmoma.show/",
+                        "artist": "Enar de Dios Rodríguez ,Lasse Scherffig, Ana María Montenegro Jaramillo",
+                        "year": "2017",
+                        "artform": "Site specific net art",
+                        "text": "“Unauthorized SFMOMA Show” was a guerrilla series of solo art shows that took place from April 6th to July 2nd, 2017.  One could only see and experience the show, by being physically present inside the San Francisco museum’s public spaces. The show was a virtual exhibition showcasing the works of artists from around the globe."
+                    }
+                },
+                {
+                    "id": "6",
+                    "code": "#para-site",
+                    "title": "Para-site",
+                    "content": {
+                        "image": "https://cdn.sanity.io/images/q2tdbkqz/production/op95UdOlnLCPkHT3WX7AQRVr-2212x2837.jpg?w=2000&fit=max&q=90",
+                        "url": "https://dsrny.com/project/para-site",
+                        "artist": "Diller Scofidio + Renfro",
+                        "year": "1989",
+                        "artform": "Digital device, network",
+                        "text": "The installation is modeled on Michel Serres’ three definitions of parasite: just as the biological parasite is physically opportunistic and feeds off its host organism, the installation steals its structural and electrical sustenance from its host site; just as the social parasite entertains its host to earn welcome at the dinner table, the installation offers the entertainment value of voyeurism to a public unwittingly drawn into an interrogation of vision; just as the technological parasite creates interference in an information network, the installation interrupts the systems of  the museum to interrogate it. The installation electronically links the Projects Room with three remote sites of circulation in the museum, linking self–conscious and unsuspecting viewers in a reflection about looking—the primary activity in the museum."
+                    }
+                },
+                {
+                    "id": "7",
                     "code": "#4th-wall",
                     "title": "4th WALL AR APP",
                     "content": {
@@ -113,7 +115,7 @@
                     }
                 },
                 {
-                    "id": "group2",
+                    "id": "8",
                     "code": "#vandalized-balloon-dog",
                     "title": "Vandalized Balloon Dog",
                     "content": {
@@ -126,7 +128,7 @@
                     }
                 },
                 {
-                    "id": "group2",
+                    "id": "9",
                     "code": "#sky-write",
                     "title": "Skywrite AR",
                     "content": {
@@ -142,9 +144,10 @@
         },
         {
             "artworks": "Physicality of Web and Online Platforms",
+            "id": "group3",
             "artworks-info": [
                 {
-                    "id": "group3",
+                    "id": "10",
                     "code": "#unnumbered-sparks",
                     "title": "Unnumbered Sparks: Interactive Public Space",
                     "content": {
@@ -157,7 +160,7 @@
                     }
                 },
                 {
-                    "id": "group3",
+                    "id": "11",
                     "code": "#chat",
                     "title": "Chat",
                     "content": {
@@ -170,7 +173,20 @@
                     }
                 },
                 {
-                    "id": "group3",
+                    "id": "12",
+                    "code": "#export-to-world",
+                    "title": "Export to World",
+                    "content": {
+                        "image": "http://exporttoworld.plugimi.com/files/bubbagumrl1.jpg",
+                        "url": "http://www.exporttoworld.net",
+                        "artist": "Linda Kostowski and Sascha Pohflepp",
+                        "year": "2007",
+                        "artform": "Physical object",
+                        "text": "The workshop commented ironically on the design and production of merchandise in virtual worlds. Their shop offered custom-made or purchased virtual objects. Shoppers would enter and buy the object of their choice at a price determined daily by the current Linden dollar/euro exchange rate. Instead of seeing the good suddenly appearing in their inventory, purchasers would receive a 2D paper representation of it which they could manually cut and shape into a 3D model of that object."
+                    }
+                },
+                {
+                    "id": "13",
                     "code": "#alpha",
                     "title": "Alpha 3.4",
                     "content": {
@@ -183,7 +199,7 @@
                     }
                 },
                 {
-                    "id": "group3",
+                    "id": "14",
                     "code": "#map",
                     "title": "Map",
                     "content": {
@@ -193,19 +209,6 @@
                         "year": "2006-2019",
                         "artform": "Physical object",
                         "text": "It was part of my practice back then to make such translations, to take an object from a computer game or an icon from a web service and to transform it into a physical sculpture. What would happen if I turned this 15-pixel computer icon into a real thing and put it in the city? Is this the center of the city? These and other projects were an attempt to understand how this new world of computers, networks, and screens would affect society and physical space. They were a sign of what was to come. Transferred to physical space the map marker questions the relation of the digital information space to every day life public city space. The perception of the city is increasingly influenced by geolocation services."
-                    }
-                },
-                {
-                    "id": "group3",
-                    "code": "#export-to-world",
-                    "title": "Export to World",
-                    "content": {
-                        "image": "http://exporttoworld.plugimi.com/files/bubbagumrl1.jpg",
-                        "url": "http://www.exporttoworld.net",
-                        "artist": "Linda Kostowski and Sascha Pohflepp",
-                        "year": "2007",
-                        "artform": "Physical object",
-                        "text": "The workshop commented ironically on the design and production of merchandise in virtual worlds. Their shop offered custom-made or purchased virtual objects. Shoppers would enter and buy the object of their choice at a price determined daily by the current Linden dollar/euro exchange rate. Instead of seeing the good suddenly appearing in their inventory, purchasers would receive a 2D paper representation of it which they could manually cut and shape into a 3D model of that object."
                     }
                 }
             ]

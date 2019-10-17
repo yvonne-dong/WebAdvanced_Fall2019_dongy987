@@ -10,30 +10,74 @@ body{
     background-color: white;
 }
 
+/* content in main container */
+#main-container{
+    width: 100vw;
+    display: flex;
+}
+
 .menu{
-    min-width: calc(1rem + 0.1vw);
-    height: calc(1rem + 38vh);
-    background-color: gray;
+    min-width: calc(1rem + 10vw);
+    height: 40vh;
+    border: none;
     transition: 0.2s;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: 800;
+    color: black;
     line-height: 0.5vw;
     font-size: 0;
-    border: none;
-    /* overflow: auto; */
-    /* float: right;   */
+    overflow: auto;
+    transition: 0.2s;
 }
 
 .menu:hover{
+    border: none;
     font-size: calc(1rem + 1vw); 
-    background-color: black;
-    color: white;
+    color: black;
     cursor: pointer;
     transition: 0.2s;
 }
 
+#home{
+    border-right: 15px solid rgb(150, 65, 65);
+}
+
+#home:hover{
+    background-color: rgba(150, 65, 65, 0.5);
+}
+
+#artwork-type{
+    border-right: 15px solid rgb(230, 168, 76);
+}
+
+#artwork-type:hover{
+    background-color: rgba(230, 168, 76, 0.5);
+}
+
+#about{
+    border-right: 15px solid rgb(92, 125, 216);
+}
+
+#about:hover{
+    background-color: rgba(92, 125, 216, 0.5);
+}
+
+#experiment{
+    border-right: 15px solid rgb(108, 156, 96);
+}
+
+#experiment:hover{
+    background-color: rgba(108, 156, 96, 0.5);
+}
+
+#artwork-type, #experiment{
+    float: right;
+}
+
+
+
 .menu-group{
-    width: calc(1rem + 0.1vw);
+    width: calc(1rem + 10vw);
     float: right;
     margin: 0 auto;
 }
@@ -43,53 +87,86 @@ body{
     top: 0;
     margin: 0 auto;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.452);  
-    backdrop-filter: blur(5px);
+    background-color: rgba(44, 44, 44, 0.452);  
+    backdrop-filter: blur(3px);
+    color: white;
 }
 
 #about-sec.open-about{
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
+
 }
 
 #close{
     font-size: calc(0.5rem + 1vw); 
 }
 
-#artwork-type, #experiment{
-    float: right;
+#introL.open, #introR.open{
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    background-color: rgba(44, 44, 44, 0.452);  
+    backdrop-filter: blur(3px);
+    color: white;
+    transition: 0.2s;
 }
 
-/* content in main container */
-#main-container{
-    width: 90vw;
-    margin: 0 auto;
-    display: flex;
+#introL.group1{
+    left: 0;
+    width: 11.5vw;
+}
+
+#introL.group2{
+    left: 0;
+    width: calc(100% / 3 + 3.5vw);
+}
+
+#introL.group3{
+    left: 0;
+    width: calc(200% / 3 - 3.5vw);
+}
+
+#introR.group1{
+    left: calc(100% / 3 + 3.5vw);
+    width: calc(100vw - 100% / 3 - 3.5vw);
+}
+
+#introR.group2{
+    left: calc(200% / 3 - 3.5vw);
+    width: calc(100vw - 200% / 3 + 3.5vw);
+}
+
+#introR.group3{
+    left: calc(100% - 11.5vw);
+    width: 11.5vw;
 }
 
 #title{
-    background-color: lightgray;
+    color: black;
     width: fit-content;
-    height: 40pt;
+    height: 45pt;
     margin: 0;
-    margin-left: 8vw;
-    /* adjust later */
-    /* padding: 0 0.5vw 0 0.5vw;  */
+    margin-left: calc(1rem + 11vw);
 }
 
 .artworks-list {
-    width: 85vw;
+    width: 90vw;
     height: auto;
-    margin: 0 auto;
 }
 
 .scrollbar{
     width: calc(100% / 3);
     height: 80vh;
     overflow: auto;
-    float: left;
+    float: left;  
 }
+
+.scrollbar:hover{
+    background-color: white;
+}
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -120,14 +197,13 @@ body{
 }
 
 .artwork-container{
-    padding: 2%;
+    padding: 1vw;
     float: left;
 }
 
 .selected-container{
     height: 80vh;
     overflow: auto;
-    padding: 2vh;
 }
 
 #button-container{
@@ -141,46 +217,32 @@ body{
     border-right: 4px solid black;    
 }
 
-.artwork-container:hover{
-    transition: 0.2s;
-}
 
-#group1:hover{
-    background-color: rgb(255, 207, 241);
-}
-
-#group2:hover{
-    background-color: rgb(207, 255, 233);
-}
-
-#group3:hover{
-    background-color: rgb(207, 235, 255);
-}
 
 .artwork-image{
     width: 100%;
+    cursor: pointer;
 }
 
 /* font settings */
 h1{
     font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
-    color: black;
-    font-size: 35pt;
+    font-size: 40pt;
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: 800;
     /* font-size: calc(1rem + 1vw); */
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    /* margin: 10px 0 10px 0; */
-    color: black;
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: 600;
     font-size: calc(1rem + 1vw);
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0 10px 0;
-    color: rgb(59, 59, 59);
     font-size: calc(0.5rem + 1vw);
 }
 
