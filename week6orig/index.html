@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Curating Digital Art</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="assets/js/jquery-min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -13,34 +13,33 @@
 </head>
 
 <body>
-    <h1 id="title">COEXISTANCE</h1>
+    <div class="menu-group">
+        <button id="home" class="menu"><a href="index.html">HOME</a></button>
+        <button id="artwork-type" class="menu"><a href="">ARTWORK TYPE</a></button>
+    </div>
     <div id="main-container">
-        <div class="menu-group">
-            <button id="home" class="menu"><a href="index.html" style="writing-mode:vertical-lr;">HOME</a></button>
-            <button id="artwork-type" class="menu"><a href="" style="writing-mode:vertical-lr;">ARTWORK TYPE</a></button>
-        </div>
+        <h1 id="title">GALLERY</h1>
         <div class="artworks-list">
             <script id="hbar-template" type="x-handlebars-template">​
             {{#each data}}
                 <div class="scrollbar">
+                    <h1>{{artworks}}</h1>
                     {{#each artworks-info}}
                         <div class="artwork-container" id="{{id}}">
                             <a href="/WebAdvanced_Fall2019_dongy987/week6/artwork-page.html{{code}}">
                                 <img class="artwork-image" src="{{content.image}}"/>
+                                <h2>{{title}}</h2>
+                                <p>{{content.artist}}</p>
                             </a>
                         </div>
                     {{/each}}
+                    <div class="artwork-container" id="button-container"><button class="buttons" id="1" onclick="buttonClick()">MORE</button></div>
                 </div>
             {{/each}}
             <div style="clear: both"></div>
         </script>
         </div>
-        <div class="menu-group" style="transform: rotate(-180deg);">
-            <button id="about" class="menu"><a href="" style="writing-mode:vertical-lr;">ABOUT</a></button>
-            <button id="experiment" class="menu"><a href="" style="writing-mode:vertical-lr;">EXPERIMENT</a></button>
-        </div>
     </div>
-
     <!-- <a href="/artwork-page.html{{code}}"> -->
     <!-- <a href="/WebAdvanced_Fall2019_dongy987/week6/artwork-page.html{{code}}"> -->
     <div id="about-sec">
@@ -48,25 +47,11 @@
         <!-- <h1 style="width: 40vw; margin: 0 auto; margin-top: 25vh;">ABOUT</h1> -->
         <!-- <p style="width: 40vw; margin: 0 auto; ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p> -->
     </div>
-
+    <div class="menu-group">
+        <button id="about" class="menu">ABOUT</button>
+        <button id="experiment" class="menu" href="">EXPERIMENT</button>
+    </div>
 
 </body>
-<!-- {{#each data}}
-<div class="scrollbar">
-    <h1>{{artworks}}</h1>
-    {{#each artworks-info}}
-    <div class="artwork-container" id="{{id}}">
-        <a href="/WebAdvanced_Fall2019_dongy987/week6/artwork-page.html{{code}}">
-            <img class="artwork-image" src="{{content.image}}" />
-            <h2>{{title}}</h2>
-            <p>{{content.artist}}</p>
-        </a>
-    </div>
-    {{/each}}
-    <div class="artwork-container" id="button-container"><button class="buttons" id="1"
-            onclick="buttonClick()">MORE</button></div>
-</div>
-{{/each}}
-<div style="clear: both"></div> -->
 
 </html>

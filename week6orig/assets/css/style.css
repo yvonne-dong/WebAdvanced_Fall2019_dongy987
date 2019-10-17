@@ -11,34 +11,30 @@ body{
 }
 
 .menu{
-    min-width: calc(1rem + 0.1vw);
-    height: calc(1rem + 38vh);
-    background-color: gray;
+    /* width: 4vw; */
+    min-width: calc(1rem + 2vw);
+    height: calc(1rem + 2vw);
+    padding: 1vw;
+    margin: 0.2vw;
+    border: 4px solid black; 
     transition: 0.2s;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
     line-height: 0.5vw;
     font-size: 0;
-    border: none;
-    /* overflow: auto; */
-    /* float: right;   */
 }
 
 .menu:hover{
-    font-size: calc(1rem + 1vw); 
+    font-size: calc(0.5rem + 1vw); 
     background-color: black;
     color: white;
     cursor: pointer;
     transition: 0.2s;
 }
 
-.menu-group{
-    width: calc(1rem + 0.1vw);
-    float: right;
-    margin: 0 auto;
-}
-
 #about-sec{
+    /* width: 100vw;
+    height: 100vh; */
     left: 0;
     top: 0;
     margin: 0 auto;
@@ -54,6 +50,7 @@ body{
 }
 
 #close{
+    /* float: right; */
     font-size: calc(0.5rem + 1vw); 
 }
 
@@ -63,30 +60,28 @@ body{
 
 /* content in main container */
 #main-container{
-    width: 90vw;
+    width: 92vw;
+    /* height: 86vh; */
     margin: 0 auto;
-    display: flex;
 }
 
 #title{
-    background-color: lightgray;
+    border: 4px solid black; 
     width: fit-content;
-    height: 40pt;
     margin: 0;
-    margin-left: 8vw;
-    /* adjust later */
-    /* padding: 0 0.5vw 0 0.5vw;  */
+    padding: 0 0.5vw 0 0.5vw;
 }
 
 .artworks-list {
-    width: 85vw;
+    margin-top: -4px;
     height: auto;
-    margin: 0 auto;
+    border: 4px solid black; 
 }
 
 .scrollbar{
+    /* margin-top: 1%; */
     width: calc(100% / 3);
-    height: 80vh;
+    height: 78vh;
     overflow: auto;
     float: left;
 }
@@ -120,14 +115,20 @@ body{
 }
 
 .artwork-container{
+    width: 90%;
     padding: 2%;
+    margin-top: -2px;
+    margin-left: 2%;
     float: left;
+    border: 4px solid black;
+    overflow-wrap: break-word;
 }
 
 .selected-container{
-    height: 80vh;
+    height: 74vh;
     overflow: auto;
     padding: 2vh;
+    overflow-wrap: break-word;
 }
 
 #button-container{
@@ -166,7 +167,6 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
     color: black;
-    font-size: 35pt;
     /* font-size: calc(1rem + 1vw); */
 }
 

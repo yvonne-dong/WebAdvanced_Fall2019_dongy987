@@ -1,133 +1,211 @@
 {
     "data": [
         {
-            "artworks": "Internet Based",
+            "artworks": "Overlooked and Intangible",
             "artworks-info": [
                 {
                     "id": "group1",
-                    "code": "#the-sheep-market",
-                    "title": "The Sheep Market",
+                    "code": "#immaterials",
+                    "title": "Immaterials: Light Painting WiFi",
                     "content": {
-                        "image": "http://www.aaronkoblin.com/work/thumbImages/sheep.jpg",
-                        "url": "http://tobib.spline.de/sheep/",
-                        "artist": "Aaron Koblin",
-                        "year": "2008",
-                        "artform": "net art",
-                        "text": "TheSheepMarket.com is a collection of 10,000 sheep made by workers on Amazon's Mechanical Turk. Workers were paid 0.02 ($USD) to \"draw a sheep facing to the left.\" Animations of each sheep's creation may be viewed at TheSheepMarket.com."
+                        "image": "http://yourban.no/wp-content/uploads/2011/02/AHO-forecourt.jpg",
+                        "url": "http://yourban.no/2011/02/22/immaterials-light-painting-wifi/",
+                        "artist": "Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen",
+                        "year": "2011",
+                        "artform": "Digital device, video",
+                        "text": "The Immaterials project was created by Timo Arnall, Einar Sneve Martinussen, and Jack Schulze from BERG and is part of the larger research initiative Touch that investigates and develops applications that enable people to interact with everyday objects and situations through new technology. The team has so far put their focus on engaging RFID, NFC, and WiFi and although they might not classify themselves as artists these projects suggest otherwise and point ahead to interesting visualizations and engagements with our digital environments."
                     }
                 },
                 {
                     "id": "group1",
+                    "code": "#salle-de-brouillage",
+                    "title": "Salle de Brouillage",
+                    "content": {
+                        "image": "http://documentsdartistes.org/artistes/clauss/images/salle-de-brouillage2.jpg",
+                        "url": "http://documentsdartistes.org/artistes/clauss/repro29.html",
+                        "artist": "Julien Clauss",
+                        "year": "2018",
+                        "artform": "Digital device, radio frequency",
+                        "text": "The artist turned one of the exhibition spaces of the spectacular Fondation Vasarely into a giant jamming room, a Salle de brouillage in french. He placed 30 FM radio transmitters on the walls. They are made of brass plate circuits and each of them is connected to an antenna, a power supply and audio players via a network of cables that crisscross the walls of the room. Each transmitter is tuned to a different frequency along the FM broadcast band (from 87 to 108 MHz), covering the entire FM band."
+                    }
+                },
+                {
+                    "id": "group1",
+                    "code": "#wifi-camera",
+                    "title": "Wifi Camera",
+                    "content": {
+                        "image": "http://wificamera.propositions.org.uk/_/rsrc/1232899004678/Single-Pixel-Wifi-Camera/Wificam%20Singlepixel-2.jpg",
+                        "url": "http://wificamera.propositions.org.uk/Home",
+                        "artist": "Usman Haque, Bengt Sjölén and Adam Somlai-Fischer",
+                        "year": "2006–2010",
+                        "artform": "Digital device",
+                        "text": "The Wifi Camera is a camera that takes \"pictures\" of spaces illuminated by wifi in much the same way that a traditional camera takes pictures of spaces illuminated by visible light. The camera reveals the electromagnetic space of our devices and the shadows that we create within such spaces, in particular our wifi networks which are increasingly found in our daily lives, in coffee shops, offices and homes throughout cities of the developed world."
+                    }
+                },
+                {
+                    "id": "group1",
+                    "code": "#spore",
+                    "title": "Spore 1.1",
+                    "content": {
+                        "image": "http://www.swamp.nu/wp-content/uploads/2012/06/spore-1a1.jpg",
+                        "url": "http://www.swamp.nu/projects/spore-1-1/",
+                        "artist": "SWAMP",
+                        "year": "2004",
+                        "artform": "Digital device, data in real life",
+                        "text": "Spore 1.1 is a project created by SWAMP (Studies of Work Atmosphere and Mass Production) a studio founded in 1999 by artists Douglas Easterly and Matt Kenyon. In this project the life or death of a rubber tree plant is tied directly to current market forces. The project consists of a Home Depot purchased plant hooked up to a self-contained watering mechanism and calibrated on a weekly basis via Wi-Fi according to the performance of Home Depot's stock. If the Home Depot stock is doing well the plant gets its proper water supply. If on the other hand Home Depot's stock does poorly the plant does not get watered. If the plant should end up dying due to poor stock performance, it is returned to the Home Depot and replaced with another at no cost due to Home Depot's one year plant guarantee policy."
+                    }
+                }
+            ]
+        },
+        {
+            "artworks": "Redefining Spaces",
+            "artworks-info": [
+                {
+                    "id": "group2",
                     "code": "#unauthorized-sfmoma-shows",
                     "title": "Unauthorized SFMOMA Shows",
                     "content": {
-                        "image": "https://montenegrojaramillo.info/wp-content/uploads/sfmoma1_.png",
+                        "image": "http://lassescherffig.de/wp-content/uploads/2017/08/UnauthorizedSFMOMAShow_Press01-MayWEB.jpg",
                         "url": "https://sfmoma.show/",
                         "artist": "Enar de Dios Rodríguez ,Lasse Scherffig, Ana María Montenegro Jaramillo",
                         "year": "2017",
-                        "artform": "site specific net art",
+                        "artform": "Site specific net art",
                         "text": "“Unauthorized SFMOMA Show” was a guerrilla series of solo art shows that took place from April 6th to July 2nd, 2017.  One could only see and experience the show, by being physically present inside the San Francisco museum’s public spaces. The show was a virtual exhibition showcasing the works of artists from around the globe."
                     }
                 },
                 {
-                    "id": "group1",
-                    "code": "#do-not-touch",
-                    "title": "Do Not Touch",
+                    "id": "group2",
+                    "code": "#para-site",
+                    "title": "Para-site",
                     "content": {
-                        "image": "https://www.arshake.com/wp-content/uploads/2015/09/tumblr_mlb4y5AE2Q1qz9vlao2_1280.png",
-                        "url": "http://donottouch.org/",
-                        "artist": "Moniker",
-                        "year": "2013-",
-                        "artform": "net based ever-changing interactive music video",
-                        "text": "Do Not Touch is an interactive, crowd sourced music video for the track Kilo by the band Light Light. With Do Not Touch we celebrate the 50th anniversary of the computer pointer. For decades this ubiquitous, yet inconspicuous arrow has formed the essential interface connecting user and computer. With the rise of multi-touch interfaces, we are slowly seeing these disconnected phantom limbs disappear. Reason enough to gather our pointers together and have some fun."
+                        "image": "https://cdn.sanity.io/images/q2tdbkqz/production/op95UdOlnLCPkHT3WX7AQRVr-2212x2837.jpg?w=2000&fit=max&q=90",
+                        "url": "https://dsrny.com/project/para-site",
+                        "artist": "Diller Scofidio + Renfro",
+                        "year": "1989",
+                        "artform": "Digital device, network",
+                        "text": "The installation is modeled on Michel Serres’ three definitions of parasite: just as the biological parasite is physically opportunistic and feeds off its host organism, the installation steals its structural and electrical sustenance from its host site; just as the social parasite entertains its host to earn welcome at the dinner table, the installation offers the entertainment value of voyeurism to a public unwittingly drawn into an interrogation of vision; just as the technological parasite creates interference in an information network, the installation interrupts the systems of  the museum to interrogate it. The installation electronically links the Projects Room with three remote sites of circulation in the museum, linking self–conscious and unsuspecting viewers in a reflection about looking—the primary activity in the museum."
                     }
-                }
-            ]
-        },
-        {
-            "artworks": "AR/VR",
-            "artworks-info": [
+                },
                 {
                     "id": "group2",
-                    "code": "#momar-gallery",
-                    "title": "MoMAR Gallery",
+                    "code": "#ghz-project",
+                    "title": "The 2.4GHz Project",
                     "content": {
-                        "image": "https://archinect.imgix.net/uploads/jc/jc0yzelomy78f2az.jpg?auto=compress%2Cformat",
-                        "url": "https://momar.gallery/",
-                        "artist": "Damjanski, David Lobser, Monique Baltzer",
+                        "image": "http://recyclism.com/assets/images/8197264455-7158ccbaff-k-1152x2048.jpg",
+                        "url": "http://recyclism.com/twopointfour08.html",
+                        "artist": "Recyclism (Benjamin Gaulon)",
+                        "year": "2008",
+                        "artform": "Wireless surveillance camera, video, installation, workshop",
+                        "text": "The 2.4Ghz project uses a wireless video receivers to hack into wireless surveillance cameras. Those devices, which are part of consumers popular products, can be used for wireless surveillance cameras, but it can also be used for parents to monitor their children. Such systems are popular because they are cheap. But what most users of those devices don't realise is that they are broadcasting the signal. This project, on-going since 2008, has several layers. Initially, Benjamin Gaulon has been walking around different towns in Europe to collect and record footage received with the device collected into a movie. The second part of the project, also on-going, consists of placing the receivers in the street to reveal the presence of the cameras and to make obvious the fact that anyone can receive those signals. The third stage of the project consists of a series of workshops: 2.4GHz Workshop, where participants are invited to a psychogeographic exploration of the CCTV wireless networks of their city by searching for 2.4GHz surveillance video signals. The locations of the various signals found are collected into maps."
+                    }
+                },
+                {
+                    "id": "group2",
+                    "code": "#4th-wall",
+                    "title": "4th WALL AR APP",
+                    "content": {
+                        "image": "https://i0.wp.com/nancybakercahill.com/wp-content/uploads/2019/02/IMG_7560.jpeg?zoom=2&fit=800%2C793&ssl=1",
+                        "url": "https://nancybakercahill.com/4th-wall-ar-app",
+                        "artist": "Nancy Baker Cahill",
                         "year": "2018",
                         "artform": "AR",
-                        "text": "An unauthorized gallery concept aimed at democratizing physical exhibition spaces, museums, and the curation of art within them. MoMAR is non-profit, non-owned, and exists in the absence of any privatized structures."
+                        "text": "The 4th Wall app is a free, augmented reality (AR) public art platform exploring resistance and inclusive creative expression. The app invites viewers to scale, rotate, move through, place and record Nancy Baker Cahill’s AR drawings in 360 degrees. It also offers access to the artist’s LA studio, and a hologram of her talking about the conceptual underpinnings of her work. Viewers can record the AR artworks anywhere in the world, creating their own context for the works."
                     }
                 },
                 {
                     "id": "group2",
-                    "code": "#hans-richtar",
-                    "title": "Hans RichtAR",
+                    "code": "#vandalized-balloon-dog",
+                    "title": "Vandalized Balloon Dog",
                     "content": {
-                        "image": "http://www.willpap-projects.com/Hans_RichtAR/images/RichtAR_App_Docu_1.jpg",
-                        "url": "http://www.willpap-projects.com/Hans_RichtAR/Intro.html",
-                        "artist": "John Craig Freeman, Will Pappenheimer",
-                        "year": "2016",
+                        "image": "https://techcrunch.com/wp-content/uploads/2017/10/screen-shot-2017-10-08-at-1-19-20-pm.png?w=1390&crop=1",
+                        "url": "http://www.meetsebastian.com/jeff-koons-x-sebastian",
+                        "artist": "Sebastian Errazuriz",
+                        "year": "2017",
                         "artform": "AR",
-                        "text": "Hans RichtAR was commissioned by the curator of the Hans Richter retrospective at LACMA, Timothy Benson, to re-envision the \"Film und Foto\" exhibition which took place in Stuttgart in 1929."
+                        "text": "Snapchat X Jeff Koons augmented reality artwork was vandalized on opening night by artist Sebastian Errazuriz. Snapchat's new AR sculpture was launched with great fanfare in New York's Central Park on Tuesday. Visitors gathered to see the giant Balloon Dog sculpture appear in their cameras, as if it were actually there. The virtual art installation constituted the first of a series of digital, 3D, geo-tagged sculptures that will populate the world. On site was also present artist Sebastian Errazuriz and his team from CrossLab, who observed the corporate initiative. 24 hours later they completed an identical 3D AR Balloon Dog and geo-tagged it to the exact coordinates for visitors to see. The only difference was that the new sculpture now appeared vandalized with graffiti, as if the result of an overnight protest. A symbolic stance against an imminent AR corporate invasion."
                     }
                 },
                 {
                     "id": "group2",
-                    "code": "#the-deep-listener",
-                    "title": "The Deep Listener",
+                    "code": "#sky-write",
+                    "title": "Skywrite AR",
                     "content": {
-                        "image": "https://lh3.googleusercontent.com/xY1KmBL0B5kU-2XQ7ip4jhTRoYF8QGVFe0WfkJhxN5I0vvti6xxOennOM1Q4sBZT3EU_mDCytqo6V_TLkm77d3BhR2sg=s2048",
-                        "url": "http://www.jakobsteensen.com/#/the-deep-listener/",
-                        "artist": "Jakob Kudsk Steensen",
-                        "year": "2019",
-                        "artform": "AR and spatial audio",
-                        "text": "The Deep Listener by Jakob Kudsk Steensen is an audio-visual ecological trail through Kensington Gardens and Hyde Park, the area surrounding the Serpentine Galleries. Designed as an augmented reality and spatial audio work downloadable as an app for mobile devices, it is both a site specific public artwork and a digital archive of species that live within the park. "
+                        "image": "http://www.willpap-projects.com/Skywrite_AR/images/We_Need_Something.jpg",
+                        "url": "http://www.meetsebastian.com/jeff-koons-x-sebastian",
+                        "artist": "Will Pappenheimer and Zachary Brady",
+                        "year": "2011–2015+",
+                        "artform": "AR",
+                        "text": "Skywrite AR creates sky written messages in virtual airplane trails for the thoughts and concerns of individuals and citizens. Normally out of the financial reach for ordinary folks, this grand scale text now becomes available to the contemplative computer poet, the instant messenger or the protester addressing the need for political change. Sketching vapor phrases hundreds of feet or meters above the cell phone viewer, sentences stretch for half a mile (800+ meters) and can be seen by others from afar. The first series, entitled \"We Need Something,\" consists of sentences and phrases from the widely admired Occupy Wall Street signs."
                     }
                 }
             ]
         },
         {
-            "artworks": "Digital Media",
+            "artworks": "Physicality of Web and Online Platforms",
             "artworks-info": [
                 {
                     "id": "group3",
-                    "code": "#someone",
-                    "title": "SOMEONE",
+                    "code": "#unnumbered-sparks",
+                    "title": "Unnumbered Sparks: Interactive Public Space",
                     "content": {
-                        "image": "https://payload.cargocollective.com/1/19/625408/13812564/_SP_6180-web_1500.jpg",
-                        "url": "http://lauren-mccarthy.com/SOMEONE",
-                        "artist": "Lauren McCarthy",
-                        "year": "2019",
-                        "artform": "Human smart home command center",
-                        "text": "Gallery visitors are invited to act as a human version of Amazon Alexa. SOMEONE is a meditation on the smart home, the tensions between intimacy vs privacy, convenience vs agency they present, and the role of human labor in the future of automation."
+                        "image": "http://www.unnumberedsparks.com/images/index/gallery-01.jpg",
+                        "url": "http://www.unnumberedsparks.com/#interactive",
+                        "artist": "Janet Echelman and Aaron Koblin",
+                        "year": "2014",
+                        "artform": "Interactive sculpture",
+                        "text": "Unnumbered Sparks was a large, interactive sculpture installation on display at the 30th anniversary of the TED conference in Vancouver, Canada, during March 2014. The sculpture, a net-like canvas 745 feet long and suspended between downtown buildings, was created by artist Janet Echelman. Aaron Koblin Creative Director of Google’s Data Arts Team created the digital component, which allowed visitors to collaboratively project abstract shapes and colors onto the sculpture using a mobile app. Koblin explains that a viewer is actually seeing a “distributed website” when interacting with the sculpture. Created using a combination of WebSockets, JavaScript, and Polymer and used to show off Google Chrome’s latest capabilities (You can try it out as a 3D simulation at the project’s website) visitors were able to choreograph the lighting by simply connecting to the local WiFi network and deciding where on the sculpture they would like to leave their mark. Projection mapping technology translated their actions onto the correct location of the shifting fibers in real-time."
                     }
                 },
                 {
                     "id": "group3",
-                    "code": "#trust-registry",
-                    "title": "The Probable Trust Registry: The Rules of the Game #1-3",
+                    "code": "#chat",
+                    "title": "Chat",
                     "content": {
-                        "image": "https://www.smb.museum/uploads/tx_smb/exhibitions/exhibition_58887/piper_web_xl.jpg",
-                        "url": "https://artsandculture.google.com/asset/the-probable-trust-registry-the-rules-of-the-game-1-3/7wHI_RcSFKeXdg?hl=en",
-                        "artist": "Adrian Piper",
-                        "year": "2013",
-                        "artform": "performance art",
-                        "text": "The Probable Trust Registry: The Rules of the Game #1-3 is equally an installation and a participative group performance. In a dialogical process it deals with the question how trust is built, and thus aims at the foundations of interpersonal relations. Considered in a larger context, it raises philosophical as well as quite practical questions regarding democratic processes and individual responsibility. It does not only call on the visitors to make a personal declaration, but also urges us to think about our actions and the consequences they entail on political, economic, and social level."
+                        "image": "https://arambartholl.com/old/chat-ctm-1.jpg",
+                        "url": "https://arambartholl.com/old/chateng.html",
+                        "artist": "Aram Bartholl",
+                        "year": "2007-2009",
+                        "artform": "Digital installation, interactive sculpture",
+                        "text": "The Chat project is a mobile performance installation that can be played by two people at a time. Just like in World of Warcraft or Second Life, the two participants communicate with each other in the form of brief text messages input via keyboard. Immediately after they’ve been entered, the written communiqués appear in comic-strip-like dialogue balloons projected above the speaker’s head. The projection surface in the form of the dialogue balloon is put in place by a technician positioned behind the speaker with the help of a telescoping pole featuring a built-in miniature projector. Thanks to a wireless keyboard set up in front of his body, the speaker can move about freely in interior and exterior spaces and concentrate on the written conversation."
                     }
                 },
                 {
                     "id": "group3",
-                    "code": "#wet-and-wavy",
-                    "title": "Wet and Wavy Looks—Typhon coming on for a Three Monitor Workstation",
+                    "code": "#alpha",
+                    "title": "Alpha 3.4",
                     "content": {
-                        "image": "https://freight.cargo.site/w/1500/q/94/i/85777f772984b0bc661b767b39e779aa5fe8cce1d79ed4fe4cff52b6bc9ea909/sp-kitchen-19_o.jpg",
-                        "url": "https://sondraperry.com/Wet-and-Wavy-Looks-Typhon-coming-on-for-a-Three-Monitor-Workstation",
-                        "artist": "Sondra Perry",
-                        "year": "2016",
-                        "artform": "Video, rowing machine workstation, Eco styler gel",
-                        "text": "Using a water-resistant rowing machine filled with hair gel connected to three screen monitors, Sondra Perry’s 2016 Wet and Wavy – Typhoon coming on for a Three-Monitor Workstation engages the viewer’s body as a component of her piece. Sequential computer-generated images of a bright purple ocean open the piece. Using the Ocean Modifier software, Perry is able to simulate and distort ocean waves. Perry’s selection of purple as the ocean color corresponds to the color warning used in software indicating an error with the software."
+                        "image": "https://d1v7jayx2s9clc.cloudfront.net/user/pages/alpha-3-4/TsunamiiDocumenta.png",
+                        "url": "https://anthology.rhizome.org/alpha-3-4",
+                        "artist": "tsunamii.net",
+                        "year": "2002",
+                        "artform": "Internet infrastructure, installation",
+                        "text": "Alpha 3.4 is one work in a larger series by the collective tsunamii.net that explored the the physicality and infrastructural politics of the internet. Performed as a part of Documenta 11 in Kassel, the work found artists Charles Lim Li Yong and Woon Tien Wei of tsunamii.net trekking more than 600 km from Kassel, the site of the Documenta exhibition, to Kiel, where the Documenta11 website’s server was located. When Lim arrived at the server, he set up a webcam that broadcast a live feed of “documenta.de” as a “real object in space.” A four-screen installation in the Documenta exhibition tracked the walk as a virtual and physical journey. Alpha 3.4 offered a timely critique of the mythologization of the internet as geographically neutral “cyberspace.” Though few materials remain from the performance, it included in Net Art Anthology as a prescient exploration of the materiality and politics of the internet and its infrastructure."
+                    }
+                },
+                {
+                    "id": "group3",
+                    "code": "#map",
+                    "title": "Map",
+                    "content": {
+                        "image": "https://arambartholl.com/wwwppp/wp-content/uploads/2018/03/aram_bartholl_map_kassel_2013_03-800x532.jpg",
+                        "url": "https://arambartholl.com/map/",
+                        "artist": "Aram Bartholl",
+                        "year": "2006-2019",
+                        "artform": "Physical object",
+                        "text": "It was part of my practice back then to make such translations, to take an object from a computer game or an icon from a web service and to transform it into a physical sculpture. What would happen if I turned this 15-pixel computer icon into a real thing and put it in the city? Is this the center of the city? These and other projects were an attempt to understand how this new world of computers, networks, and screens would affect society and physical space. They were a sign of what was to come. Transferred to physical space the map marker questions the relation of the digital information space to every day life public city space. The perception of the city is increasingly influenced by geolocation services."
+                    }
+                },
+                {
+                    "id": "group3",
+                    "code": "#export-to-world",
+                    "title": "Export to World",
+                    "content": {
+                        "image": "http://exporttoworld.plugimi.com/files/bubbagumrl1.jpg",
+                        "url": "http://www.exporttoworld.net",
+                        "artist": "Linda Kostowski and Sascha Pohflepp",
+                        "year": "2007",
+                        "artform": "Physical object",
+                        "text": "The workshop commented ironically on the design and production of merchandise in virtual worlds. Their shop offered custom-made or purchased virtual objects. Shoppers would enter and buy the object of their choice at a price determined daily by the current Linden dollar/euro exchange rate. Instead of seeing the good suddenly appearing in their inventory, purchasers would receive a 2D paper representation of it which they could manually cut and shape into a 3D model of that object."
                     }
                 }
             ]
