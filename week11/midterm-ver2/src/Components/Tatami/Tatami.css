@@ -1,0 +1,30 @@
+.tatamiCanvas{   
+    border: 0.5vw solid black; 
+    position: absolute;
+}
+
+#one{
+    width: 15vw;
+    height: 30vw;  
+    left: 27vw;  
+}
+
+#two{
+    width: 30vw;
+    height: 15vw;
+    left: 42.5vw;
+}
+
+#three{
+    width: 15vw;
+    height: 30vw; 
+    left: 57.5vw;
+    top: 15.6vw; 
+}
+
+#four{
+    width: 30vw;
+    height: 15vw;
+    left: 27vw;  
+    top: 30.6vw; 
+}
