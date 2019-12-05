@@ -1,0 +1,19 @@
+<div *ngFor="let project of data">
+    <div class="Projects">
+        <div id="content">
+            <h3 id="title">{{ project.name }}</h3>
+            <div id="project-image">
+                <img src="{{project.image}}" style='height: 100%; width: 100%; object-fit: contain'>
+            </div>
+            <p id="{{ project.id }}" (click)='showDialog($event)' class="more">
+                MORE >>
+            </p>
+            <app-popup id="project-description" class="hhidden">
+                <h1 id="inner-project">{{ project.name }}</h1>
+                <p id="inner-text">{{ project.description}}</p>
+                <p></p>
+            </app-popup>
+        </div>
+    </div>
+
+</div>

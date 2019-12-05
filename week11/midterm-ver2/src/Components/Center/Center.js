@@ -5,7 +5,7 @@ import './Center.css';
 class Center extends Component {
     render() {
         // onClick: expand the clicked one to horizontal scroll area
-        // if ...
+        if (!this.props.show) return null
 
         return (
             // notClicked: show title of the text area
