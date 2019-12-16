@@ -1,0 +1,70 @@
+.artwork {  
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: white;  
+    color: rgb(80, 80, 80);
+} 
+
+.artworkInner {  
+    width: 100%; 
+    height: 100%;
+    overflow: scroll;
+}
+
+.label{
+    width: 50vw;
+    padding: 2vw;
+    padding-bottom: 10vh;
+    margin: 0 auto;
+    margin-top: 65vh;
+    /* margin-left: 5vw; */
+    background: rgba(255,255,255,0.8); 
+}
+
+.description{
+    width: 50vw;
+    height: 30vh;
+    margin: 0 auto;
+    /* margin-left: 5vw; */
+    padding: 2vw;
+    padding-bottom: 20vh;
+    color: rgb(80, 80, 80);
+    background: rgba(255,255,255,0.8); 
+    
+}
+
+p{
+    font-size: 18px;
+    font-size: calc(1vw+1em);
+    font-weight: lighter;
+}
+
+.artwork-img{
+    position: fixed;  
+    height:80%; 
+    z-index: -1;
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;
+}
+
+.artwork-close{
+    border: 2px solid rgb(80, 80, 80);
+    width: 3.5vw;
+    margin-top: 10vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: calc(0.2vw + 1em);
+}
+
+.artwork-close:hover{
+    cursor: pointer;
+}

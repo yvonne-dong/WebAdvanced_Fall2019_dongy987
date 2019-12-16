@@ -1,0 +1,31 @@
+.main-container{
+    width: 100vw;
+    overflow: scroll;
+}
+.home-title{
+    /* position: absolute;
+    left: 2vw;
+    top: 15%; */
+    margin-top: 10%;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+    height: 100vh;
+    /* margin: 0 auto; */
+}
+
+#name-credit{
+    font-size: 2vw;
+    color: rgb(81, 81, 81);
+}
+
+.concept-container{
+    height: 100vh;
+    margin-left: 2vw;
+    font-size: 1.8vw;
+}
+
+#concept{
+    color: rgb(81, 81, 81);
+}
+
+

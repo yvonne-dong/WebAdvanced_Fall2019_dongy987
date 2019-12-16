@@ -1,0 +1,49 @@
+.sec2-artworks{
+  width: 40vw;
+  height: 30vh;
+  float: right;
+  margin-right: 8vw;
+  margin-top: 10%;
+}
+
+.sec2-titles{
+  width: calc(34vw/3);
+  height: calc(34vw/3);
+  margin: 1vw;
+  background-color: rgb(81, 81, 81);
+  color: rgb(81, 81, 81);
+  font-size: calc(0.1vw + 1em);
+  font-weight: bolder;
+  display: inline-flex;
+}
+
+.sec2-expand{
+  font-size: calc(0.1vw + 1em);
+}
+
+.sec2-artContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.sec2-titles:hover{
+  color: rgb(135, 137, 225);
+  background-color: rgb(135, 137, 225);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.sec2-expand{
+  margin-top: 25%;
+  width: 90%;
+  height: 50%;
+  background-color: rgba(255,255,255,0.8); 
+}
+
+.plan-img{
+  position: fixed;  
+  height:100%; 
+  z-index: -1;
+  top: 0;  
+  left: 10vw;  
+}
