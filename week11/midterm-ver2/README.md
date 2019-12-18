@@ -1,3 +1,5 @@
+Update: website published at https://yvonne-dong.github.io/midterm-ver2/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
